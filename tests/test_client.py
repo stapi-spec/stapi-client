@@ -17,6 +17,10 @@ from stapi_client.client import StapiClient
     ]
 )
 def test_endpoint_not_implemented(method, args, kwargs):
+    """
+    This is dumb and only serves to have *something*
+    to test as we iterate.
+    """
     sc = StapiClient()
     with pytest.raises(NotImplementedError):
         getattr(sc, method)(*args, **kwargs)
