@@ -1,0 +1,6 @@
+*py[cod]
+__pycache__
+.pytest_cache
+
+# editor artifacts
+*swp
